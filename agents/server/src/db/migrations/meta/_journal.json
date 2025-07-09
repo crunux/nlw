@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1751935673212,
+      "tag": "0000_curious_thunderball",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1752026091212,
+      "tag": "0001_next_kabuki",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1752027371285,
+      "tag": "0002_parched_vanisher",
+      "breakpoints": true
+    }
+  ]
+}
