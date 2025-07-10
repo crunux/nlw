@@ -7,14 +7,14 @@ await reset(db, schema );
 await seed(db, schema).refine((seed) => {
   return {
     rooms: {
-      count: 20,
+      count: 5,
       columns: {
         name: seed.companyName(),
         description: seed.loremIpsum(),
       },
     },
     questions: {
-      count: 10,
+      count: 20,
     },
   }
 });

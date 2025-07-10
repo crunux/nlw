@@ -22,6 +22,13 @@
       "when": 1752027371285,
       "tag": "0002_parched_vanisher",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1752113011401,
+      "tag": "0003_optimal_silver_samurai",
+      "breakpoints": true
     }
   ]
 }

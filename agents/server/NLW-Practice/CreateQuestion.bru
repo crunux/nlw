@@ -4,8 +4,19 @@ meta {
   seq: 5
 }
 
-get {
-  url: {{BASE_URL}}/rooms/a6732832-9805-4da4-f281-fa7773aff23b/questions
-  body: none
+post {
+  url: {{BASE_URL}}/rooms/7428a393-65be-419e-8aac-0de441d41962/questions
+  body: json
   auth: inherit
+}
+
+headers {
+  Accept: application/json
+  Content-Type: application/json
+}
+
+body:json {
+  {
+    "question": "hola amigo"
+  }
 }
